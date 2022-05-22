@@ -122,5 +122,49 @@
     letter-spacing: 1.5px;
 }
 
+.card-container{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 50px;
+    align-items: center;
+
+}
+.card-container .card{
+    width: 20%;
+    margin-right: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+.curser{
+    width: 100%;
+    height:400px;
+    padding: 0px 68px;
+    display: flex;
+    
+}
+.curser #carouselExampleIndicators {
+    width:73%;
+    height: 100%;
+    margin-right: 50px;
+
+}
+.curser #carouselExampleIndicators img{
+    width: 100%;
+    height: 300px;
+}
+.curser .side{
+    width: 21%;
+}
+.curser .side img{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
 
 
